@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-02-form</title>
+    <link rel="stylesheet" href="css/styles.css" />
+<!-- Если скрипт записывать в head нужно применять артибуты async  или defer -->
+<!-- async - загружает скрипт и паралельно загружает разметку страницы, ничего на паузу не ставит -->
+<!-- defer - загружает скрипт и паралельно загружает разметку страницы, как только загрузился скрипт, разметка пеерстает загружаться и ставится на паузу-->
+    <!-- <script src="js/task-02-form.js" async defer type="module"></script> -->
+  </head>
+  <body>
+    <form class="form" autocomplete="off">
+      <input type="text" name="login" placeholder="Login">
+      <input type="password" name="password" placeholder="Password">
+      <button class="btn" type="submit">Register</button>
+    </form>
+
+<div class="container"><button class="single-btn">Click me</button></div>
+
+
+    <script src="js/task-02-form.js" type="module"></script>
+</body>
+</html>
